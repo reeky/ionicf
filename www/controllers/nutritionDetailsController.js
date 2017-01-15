@@ -21,7 +21,6 @@ this.nutritionDetailsController = function ($scope, $http, $route, $location, Us
 
         var phone = UserService.phone;
         var pin = UserService.pin;
-
       $http.post("http://" + UserService.apiRoot + "/nutrition", {
           // '_token': $scope._token,
           'nutritions_id': id,
@@ -30,7 +29,12 @@ this.nutritionDetailsController = function ($scope, $http, $route, $location, Us
           'pin': pin
         })
           .success(function (data, status, headers, config) {
-
+            // GET THE NUTRITION
+            $http.get("http://"+UserService.apiRoot+"/nutritions/"+nut_id+"/"+phone+"/"+pin)
+              .then(function (response) {
+                $scope.nutritiondetails = response.data;
+              });
+            // END NUTRITION
           });
 
 
@@ -38,6 +42,22 @@ this.nutritionDetailsController = function ($scope, $http, $route, $location, Us
         $scope.nutUpdate = '';
     };
     // UPDATE FOOD INTAKE END
+
+    //DELETE FROM LIST
+    $scope.delete = function(id){
+      $http.post("http://" + UserService.apiRoot + "/deleteNutrition", {
+        'id': id,
+      })
+        .success(function (data, status, headers, config) {
+          // GET THE NUTRITION
+          $http.get("http://"+UserService.apiRoot+"/nutritions/"+nut_id+"/"+phone+"/"+pin)
+            .then(function (response) {
+              $scope.nutritiondetails = response.data;
+            });
+          // END NUTRITION
+        });
+    };
+    //DELETE FROM LIST END
 
 
     // GO BACK TO NUTRITION LANDING PAGE

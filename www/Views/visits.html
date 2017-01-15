@@ -4,10 +4,10 @@
     }
 </style>
 <!--Page header and doctor adding form-->
-<div style="background-color: #DD2C00; height: 60px; text-align: center; color: white; font-size: 20px">
+<div style="background-color: #558B2F; height: 60px; text-align: center; color: white; font-size: 20px">
     Doctor Visits
     <div id="addButton" style="margin-left: 20px; margin-top: 0px; text-align: left">
-        <a class="btn-floating btn-large waves-effect waves-light" style="background-color: #E57373"
+        <a class="btn-floating btn-large waves-effect waves-light" style="background-color: #CDDC39"
            ng-click="addDoc()"><i class="material-icons">add</i></a>
     </div>
 
@@ -15,7 +15,7 @@
 <!--Page header end-->
 
 <!--Doctor adding form-->
-<div id="addDoc" style="padding: 20px; background-color: #DD2C00;" hidden>
+<div id="addDoc" style="padding: 20px; background-color: #558B2F;" hidden>
     <form ng-submit="createDoc(doc)">
         <input ng-model="doc.name" style="color: white; font-size: 14px">
 
@@ -39,7 +39,7 @@
     <div class="row" style="overflow: visible" ng-repeat="(key, visit) in visits | filter:searchVisit" >
         <!--Iterate doctor name-->
         <div class="col s2" style="text-align: center" >
-            <a class="btn-floating btn-medium waves-effect waves-light" style="background-color: #E57373"
+            <a class="btn-floating btn-medium waves-effect waves-light" style="background-color: #CDDC39"
                ng-click="showDetail(visit['id'])"><i class="material-icons" >more_vert</i></a>
         </div>
         <div class="col s8" style="height: 30px">
