@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>CF - Healpdesk</title>
+
+	<meta name="theme-color" content="#EE6E73">
+	<!-- CSS-->
+	<link href="css/prism.css" rel="stylesheet">
+	<link href="css/ghpages-materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+	<link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!--Block to include all angular module and controllers-->
+	<script src="js/angular.js"></script>
+	<script src="js/angular-route.js"></script>
+	<script src="controllers/menuController.js"></script>
+	<script src="controllers/homeController.js"></script>
+	<script src="controllers/symptomsController.js"></script>
+	<script src="controllers/vaccineController.js"></script>
+	<script src="controllers/lifestyleController.js"></script>
+	<script src="controllers/nutritionController.js"></script>
+	<script src="controllers/nutritionDetailsController.js"></script>
+	<script src="controllers/visitsController.js"></script>
+	<script src="controllers/aboutController.js"></script>
+	<script src="bower_components/ng-repeat-owl-carousel/src/ngRepeatOwlCarousel.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/routes.js"></script>
+	<!--Block to include all angular module and controllers-->
+
+	<style>
+		.homeBack{
+			background-color: #880E4F;
+		}
+	</style>
+</head>
+<body  ng-app="cf" id="docbody">
+<header ng-controller="menuController" id="menu" hidden>
+	<!--header-->
+	<div style="background-color: {{topColor}}; margin: 0px; height: 45px; text-align: center;">
+		<a href="#" data-activates="nav-mobile" class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only"><i class="material-icons">menu</i></a>
+		<a href="#" style="line-height: 45px; color: white; font-size: 20px">{{pageName}}</a>
+	</div>
+	<!--end header-->
+	<!--side menu of the application-->
+	<ul id="nav-mobile" class="side-nav fixed">
+			<img src="/images/logo.png" width="100%" style="background-color: {{topColor}}">
+
+		<li class="bold"><a ng-click="symptoms()" class="waves-effect waves-teal">Symptoms</a></li>
+		<li class="bold"><a ng-click="vaccine()" class="waves-effect waves-teal">Vaccination & Enzymes</a></li>
+		<li class="bold"><a ng-click="lifestyle()" class="waves-effect waves-teal">Lifestyle</a></li>
+		<li class="bold"><a ng-click="nutrition()" class="waves-effect waves-teal">Nutrition</a></li>
+		<li class="bold"><a ng-click="visits()" class="waves-effect waves-teal">Doctor Visits</a></li>
+		<li class="bold"><a ng-click="about()" class="waves-effect waves-teal">About</a></li>
+	</ul>
+	<!--end side menu-->
+</header>
+<!--Render the views here-->
+<main ng-view></main>
+<!-- End render view-->
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
+</body>
+</html>

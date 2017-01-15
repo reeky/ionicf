@@ -1,0 +1,25 @@
+<!--STYLE TO CHANGE CURSOR TO HAND-->
+<style>
+	.howerImage{
+		cursor: pointer;
+	}
+</style>
+<!--END STYLE-->
+<div class="container">
+	<!--PAGE INTRO-->
+	<p>
+		{{intro}}
+	</p>
+	<!--END INTRO-->
+
+	<!--LIST NUTRITION ITEMS-->
+	<div class="row" >
+		<div class="col s6 l3" ng-repeat="nutrition in nutritions" style="margin-bottom: 20px">
+			<img class="howerImage" ng-src="images/{{nutrition['image']}}" width="100%" ng-click="nutritionDetail(nutrition['id'])">
+			{{nutrition['name']}}
+		</div>
+	</div>
+	<!--END NUTRITION ITEMS-->
+
+</div>
+

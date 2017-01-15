@@ -1,0 +1,18 @@
+<div class="container">
+	<!--page intro-->
+	<p>
+		{{intro}}
+	</p>
+	<!--end page intro-->
+	<!--list symptoms-->
+	<div class="row"  ng-repeat="symptom in symptoms"  style="height: 30px;">
+		<div class="col s2" style="margin-top: -7px; text-align: center">
+			<a class="btn-floating btn-medium waves-effect waves-light" style="background-color: #CDDC39"
+			   ng-click="showDetail(visit['id'])">{{symptom['id']}}</a>
+		</div>
+		<div class="col s10"  style="border-bottom: lightgray solid 1px; height: 30px">{{symptom['name']}}</div>
+	</div>
+	<!--symptoms end-->
+</div>
+
+

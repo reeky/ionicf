@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Hepatitis A and B"
+  },
+  {
+    "id": 2,
+    "name": "Measles-mumps-rubella"
+  },
+  {
+    "id": 3,
+    "name": "Varicella"
+  },
+  {
+    "id": 4,
+    "name": "Influenza"
+  },
+  {
+    "id": 5,
+    "name": "Respiratory syncytial virus"
+  }
+]

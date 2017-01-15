@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Nutritious snacks",
+    "image": "snack.jpg",
+    "description": "Keep a variety of nutritious snack foods around. Try to snack on something every hour, such as cheese and crackers, muffins, or trail mix."
+  },
+  {
+    "id": 2,
+    "name": "Milkshake",
+    "image": "shake.jpg",
+    "description": "Try to eat regularly, even if it is only a few bites. Or, include a nutrition supplement or milkshake."
+  },
+  {
+    "id": 3,
+    "name": "Soup",
+    "image": "soup.jpg",
+    "description": "Add grated cheese to soups, sauces, casseroles, vegetables, mashed potatoes, rice, noodles, or meat loaf."
+  },
+  {
+    "id": 4,
+    "name": "Peanut butter",
+    "image": "peanut.jpg",
+    "description": "Spread peanut butter on bread products or use it as a dip for raw vegetables and fruit. Add peanut butter to sauces or use on waffles."
+  },
+  {
+    "id": 5,
+    "name": "Skim Milk",
+    "image": "milk.jpg",
+    "description": "Skim milk powder adds protein. Try adding 2 tablespoons (8.5 grams) of dry skim milk powder in addition to the amount of regular milk in recipes."
+  },
+  {
+    "id": 6,
+    "name": "Vegetables",
+    "image": "veggies.jpg",
+    "description": "Eat lots of vegetables. Include all shades of green at least once everyday."
+  },
+  {
+    "id": 7,
+    "name": "Egg",
+    "image": "egg.jpg",
+    "description": "Add coarsely chopped hard cooked egg and cheese cubes to a tossed salad."
+  },
+  {
+    "id": 8,
+    "name": "Meat",
+    "image": "meat.jpg",
+    "description": "Add grated cheeses, tuna, shrimp, crabmeat, ground beef, diced ham or sliced boiled eggs to sauces, rice, casseroles, and noodles."
+  }
+]

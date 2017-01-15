@@ -1,0 +1,39 @@
+<div class="container">
+	<!--vaccines intro-->
+	<h5>Vaccines</h5>
+	<p>
+		{{vaccineIntro}}
+	</p>
+	<br>
+	<!--end vaccines intro-->
+
+	<!--list vaccines-->
+	<div class="row"  ng-repeat="vaccine in vaccines"  style="height: 30px;">
+		<div class="col s2" style="margin-top: -7px; text-align: center">
+		<a class="btn-floating btn-medium waves-effect waves-light" style="background-color: #CDDC39"
+		   ng-click="showDetail(visit['id'])">{{vaccine['id']}}</a>
+		</div>
+		<div class="col s10"  style="border-bottom: lightgray solid 1px; height: 30px">{{vaccine['name']}}</div>
+	</div>
+	<!--end vaccines list-->
+
+	<!--enzymes intro-->
+	<h5>Enzymes</h5>
+	<p>
+		{{enzymeIntro}}
+	</p>
+	<!--end enzymes intro-->
+
+	<!--list enzymes-->
+	<br>
+	<div class="row"  ng-repeat="enzyme in enzymes"  style="height: 30px; background-color: ">
+		<div class="col s2" style="margin-top: -7px; text-align: center">
+			<a class="btn-floating btn-medium waves-effect waves-light" style="background-color: #CDDC39"
+			   ng-click="showDetail(visit['id'])">{{enzyme['id']}}</a>
+		</div>
+		<div class="col s10"  style="border-bottom: lightgray solid 1px; height: 30px">{{enzyme['name']}}</div>
+	</div>
+	<!--end enzymes list-->
+</div>
+
+

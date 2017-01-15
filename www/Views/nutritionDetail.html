@@ -1,0 +1,30 @@
+
+<div class="container">
+	<!--LIST THE RECORD-->
+	<div class="row" >
+
+		<div class="col s12 l6">
+			<img ng-src="images/{{nutritiondetails[0][0]['image']}}" width="100%" style="margin-top: 20px">
+			<div style="text-align: center"><a class="btn-floating btn-large waves-effect waves-light green" ng-click="back()"><i class="material-icons">skip_previous</i></a></div>
+		</div>
+		<div class="col s12 l6">
+			<h5 style="color: #558B2F; font-weight: bold">{{nutritiondetails[0][0]['name']}}</h5>
+			<h6>{{nutritiondetails[0][0]['description']}}</h6>
+			<br>
+      <form ng-submit="updateIntake(nutritiondetails[0][0]['id'],nutUpdate)">
+        <input ng-model="nutUpdate.detail" required>
+        <div style="text-align: center">
+          <button type="submit" class="btn">Add</button>
+        </div>
+      </form>
+			<h7 style="color: #558B2F; font-weight: bold; font-size: 17px">History</h7>
+			<ul>
+				<li ng-repeat="listitem in nutritiondetails[1]">{{listitem.item_taken}} ({{listitem.date | date:'dd-MM-yyyy'}})</li>
+			</ul>
+
+		</div>
+	</div>
+	<!--END RECORD-->
+</div>
+
+

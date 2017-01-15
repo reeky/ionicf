@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Coughing up thick mucus"
+  },
+  {
+    "id": 2,
+    "name": "Wheezing or shortness of breath"
+  },
+  {
+    "id": 3,
+    "name": "Getting sinus infections, bronchitis often"
+  },
+  {
+    "id": 4,
+    "name": "Growths, called polyps, in the nose"
+  },
+  {
+    "id": 5,
+    "name": "Bulky, oily, or foul-smelling stool"
+  },
+  {
+    "id": 6,
+    "name": "Too much gas, constipation"
+  },
+  {
+    "id": 7,
+    "name": "Weight loss or failure to gain weight"
+  },
+  {
+    "id": 8,
+    "name": "Low bone density"
+  },
+  {
+    "id": 9,
+    "name": "Wide, rounded fingertips and toes"
+  }
+]
