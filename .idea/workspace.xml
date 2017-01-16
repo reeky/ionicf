@@ -21,10 +21,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
+            <state relative-caret-position="1037">
               <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#ul#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -98,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aboutController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/controllers/aboutController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -123,21 +123,19 @@
       <file leaf-file-name="nutritionDetailsController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/controllers/nutritionDetailsController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nutritionDetail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/Views/nutritionDetail.html">
+      <file leaf-file-name="nutritionController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/controllers/nutritionController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,7 +146,11 @@
     <findStrings>
       <find>form</find>
       <find>search</find>
+      <find>woff2</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\wamp64\www\ionicf</dir>
+    </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -156,7 +158,6 @@
         <option value="$PROJECT_DIR$/www/controllers/homeController.js" />
         <option value="$PROJECT_DIR$/www/Views/nutrition.html" />
         <option value="$PROJECT_DIR$/www/js/routes.js" />
-        <option value="$PROJECT_DIR$/www/controllers/nutritionController.js" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/www/Views/nutritionDetail.html" />
         <option value="$PROJECT_DIR$/www/controllers/nutritionDetailsController.js" />
@@ -166,6 +167,7 @@
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/Views/about.html" />
         <option value="$PROJECT_DIR$/www/controllers/aboutController.js" />
+        <option value="$PROJECT_DIR$/www/controllers/nutritionController.js" />
       </list>
     </option>
   </component>
@@ -233,6 +235,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionicf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionicf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roboto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -242,8 +266,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="about&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/controllers/aboutController.js&#10;symptoms&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/Views/symptoms.html&#10;visits&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/Views/visits.html&#10;homeCo&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/controllers/homeController.js&#10;home&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/Views/home.html&#10;menu&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/controllers/menuController.js&#10;app&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/js/app.js&#10;nutrition&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/Views/nutritionDetail.html&#10;routes&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/js/routes.js&#10;ABOUT&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/Views/about.html&#10;menuCon&#9;null&#9;null&#10;index.html&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/index.html" />
+    <property name="SearchEverywhereHistoryKey" value="ind&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/index.html&#10;nutrition&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/controllers/nutritionController.js&#10;about&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/controllers/aboutController.js&#10;symptoms&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/Views/symptoms.html&#10;visits&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/Views/visits.html&#10;homeCo&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/controllers/homeController.js&#10;home&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/Views/home.html&#10;menu&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/controllers/menuController.js&#10;app&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/js/app.js&#10;routes&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/js/routes.js&#10;ABOUT&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/Views/about.html&#10;menuCon&#9;null&#9;null&#10;index.html&#9;FILE&#9;file://D:/wamp64/www/ionicf/www/index.html" />
     <property name="editor.config.accepted" value="true" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -252,7 +277,57 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
   </component>
@@ -272,21 +347,22 @@
       <workItem from="1484388740868" duration="848000" />
       <workItem from="1484389640442" duration="5000" />
       <workItem from="1484390560107" duration="160000" />
-      <workItem from="1484403189586" duration="25665000" />
+      <workItem from="1484403189586" duration="26798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26678000" />
+    <option name="totallyTimeSpent" value="27811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -298,7 +374,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -424,29 +499,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/controllers/nutritionController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="67" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/Views/nutritionDetail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/controllers/nutritionDetailsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -507,16 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#ul#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/controllers/homeController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -530,6 +579,32 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/controllers/nutritionDetailsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/controllers/nutritionController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#ul#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
